@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Folio</title>
+<meta name="theme-color" content="#0b0d18">
+<meta name="apple-mobile-web-app-title" content="Folio">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+:root{color-scheme:dark}
+body{margin:0;min-height:100svh;display:grid;place-items:center;background:#0b0d18;color:#f6f6ff;font:15px/1.5 system-ui,-apple-system,'Segoe UI',sans-serif;text-align:center;padding:24px;box-sizing:border-box}
+img{width:112px;height:112px;border-radius:26px;box-shadow:0 12px 40px #0008}
+h1{margin:18px 0 4px;font-size:26px;letter-spacing:-.5px}
+p{color:#a0a2b7;margin:0 auto;max-width:300px}
+a{display:inline-block;margin:22px 0 18px;background:#d6fa69;color:#15181c;font-weight:800;text-decoration:none;padding:14px 24px;border-radius:16px}
+</style></head>
+<body><main>
+<img src="icon-192.png" alt="">
+<h1>Folio</h1>
+<p>Your private money tracker.</p>
+<a href="https://claude.ai/artifact/Mh4dXZw4vfYPAPjeHuS4ka">Open Folio</a>
+<p>For the app icon, open your browser menu and choose <b>Add to Home screen</b> or <b>Install app</b>.</p>
+</main>
+<script>
+// Opened from the home-screen icon (?go): go straight to the app.
+if (new URLSearchParams(location.search).has('go')) location.replace('https://claude.ai/artifact/Mh4dXZw4vfYPAPjeHuS4ka');
+else history.replaceState(null, '', '?go'); // a shortcut saved from this page then opens the app directly
+</script>
+</body></html>

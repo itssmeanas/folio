@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+<radialGradient id="v" cx="0.86" cy="0.1" r="0.75"><stop offset="0" stop-color="#7b3c96" stop-opacity="0.8"/><stop offset="1" stop-color="#7b3c96" stop-opacity="0"/></radialGradient>
+<radialGradient id="t" cx="0.08" cy="0.95" r="0.7"><stop offset="0" stop-color="#1f5560" stop-opacity="0.75"/><stop offset="1" stop-color="#1f5560" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#d6fa69" stop-opacity="0.32"/><stop offset="1" stop-color="#d6fa69" stop-opacity="0"/></radialGradient>
+<linearGradient id="lime" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ecffa6"/><stop offset="1" stop-color="#bfe646"/></linearGradient>
+<radialGradient id="cy" cx="0.32" cy="0.28" r="0.8"><stop offset="0" stop-color="#d6fff6"/><stop offset="0.5" stop-color="#5ae4d4"/><stop offset="1" stop-color="#239e8a"/></radialGradient>
+<radialGradient id="pk" cx="0.32" cy="0.28" r="0.8"><stop offset="0" stop-color="#ffd3f2"/><stop offset="0.5" stop-color="#fc91cf"/><stop offset="1" stop-color="#b04896"/></radialGradient>
+<radialGradient id="vi" cx="0.32" cy="0.28" r="0.8"><stop offset="0" stop-color="#e6ddff"/><stop offset="0.5" stop-color="#a88cff"/><stop offset="1" stop-color="#6a49c8"/></radialGradient>
+</defs>
+<rect width="512" height="512" fill="#0b0d18"/>
+<rect width="512" height="512" fill="url(#v)"/>
+<rect width="512" height="512" fill="url(#t)"/>
+<ellipse cx="256" cy="262" rx="196" ry="118" transform="rotate(-20 256 262)" fill="none" stroke="#a7a2c9" stroke-opacity="0.32" stroke-width="5"/>
+<circle cx="256" cy="256" r="200" fill="url(#glow)"/>
+<g transform="rotate(-8 256 256)">
+<rect x="140" y="140" width="232" height="232" rx="64" fill="url(#lime)"/>
+<path transform="translate(256 258) scale(7.2) translate(-12 -12)" d="m12 2 9 5-9 5-9-5zM3 12l9 5 9-5M3 17l9 5 9-5" fill="none" stroke="#14151d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<circle cx="420" cy="170" r="27" fill="url(#cy)"/>
+<circle cx="92" cy="352" r="20" fill="url(#pk)"/>
+<circle cx="404" cy="305" r="14" fill="url(#vi)"/>
+</svg>
